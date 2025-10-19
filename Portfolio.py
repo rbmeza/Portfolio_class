@@ -93,4 +93,5 @@ if __name__ == "__main__":
               f"(${abs(info['diff_value']):.2f})")
 
         print(f"Target allocation: {info['target_value']:.2f}")
+        print("--------------------------------")
 

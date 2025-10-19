@@ -66,8 +66,7 @@ python Portfolio.py
 
 The application will automatically:
 - Fetch current stock prices for NVDA, AAPL, META, and TSLA
-- Calculate portfolio value
-- Show rebalancing recommendations
+- Calculate portfolio total value
 - Display buy/sell actions needed to reach target allocation
 
 ## Project Structure
@@ -84,3 +83,8 @@ venv/                # Virtual environment folder
 - Python 3.7+
 - Internet connection for API calls
 - Alpha Vantage API key (free)
+
+## Disclaimer
+
+- The API have a rate limit of 25 requests per day.
+- The portfolio assume a current price of 100 when the API request fail.
